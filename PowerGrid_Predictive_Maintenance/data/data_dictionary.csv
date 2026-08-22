@@ -1,0 +1,33 @@
+Column,Data Type,Description,Missing %,Unique Values,Role,Treatment
+asset_id,int64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+asset_type,object,Business meaning requires validation.,0.0,7,Candidate feature,Target / exclude or preprocess based on leakage assessment
+asset_age_years,int64,Business meaning requires validation.,0.0,39,Candidate feature,Target / exclude or preprocess based on leakage assessment
+substation_region,object,Business meaning requires validation.,0.0,5,Candidate feature,Target / exclude or preprocess based on leakage assessment
+manufacturer,object,Business meaning requires validation.,0.0,5,Candidate feature,Target / exclude or preprocess based on leakage assessment
+power_load_mw,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+load_utilization_pct,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+voltage_fluctuation_pct,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+frequency_deviation_hz,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+transformer_temperature_c,float64,Business meaning requires validation.,0.0,49985,Candidate feature,Target / exclude or preprocess based on leakage assessment
+oil_quality_score,float64,Business meaning requires validation.,9.996,45010,Candidate feature,Target / exclude or preprocess based on leakage assessment
+equipment_health_score,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+vibration_level,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+maintenance_overdue_days,int64,Business meaning requires validation.,0.0,180,Candidate feature,Target / exclude or preprocess based on leakage assessment
+maintenance_events_last_12m,int64,Business meaning requires validation.,0.0,14,Candidate feature,Target / exclude or preprocess based on leakage assessment
+inspection_score,float64,Business meaning requires validation.,10.117,44953,Candidate feature,Target / exclude or preprocess based on leakage assessment
+previous_outages_12m,int64,Business meaning requires validation.,0.0,11,Candidate feature,Target / exclude or preprocess based on leakage assessment
+avg_outage_duration_minutes,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+customer_complaints_last_12m,int64,Business meaning requires validation.,0.0,17,Candidate feature,Target / exclude or preprocess based on leakage assessment
+temperature_c,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+humidity_pct,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+wind_speed_kmh,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+rainfall_mm,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+storm_risk_index,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+customers_served,int64,Business meaning requires validation.,0.0,39431,Candidate feature,Target / exclude or preprocess based on leakage assessment
+estimated_revenue_loss,float64,Business meaning requires validation.,0.0,49901,Candidate feature,Target / exclude or preprocess based on leakage assessment
+regulatory_penalty_cost,float64,Business meaning requires validation.,0.0,50000,Candidate feature,Target / exclude or preprocess based on leakage assessment
+legacy_asset_code,int64,Business meaning requires validation.,0.0,48635,Candidate feature,Target / exclude or preprocess based on leakage assessment
+grid_cluster_id,int64,Business meaning requires validation.,0.0,49,Candidate feature,Target / exclude or preprocess based on leakage assessment
+monitoring_batch_id,int64,Business meaning requires validation.,0.0,8964,Candidate feature,Target / exclude or preprocess based on leakage assessment
+administrative_reference,int64,Business meaning requires validation.,0.0,48594,Candidate feature,Target / exclude or preprocess based on leakage assessment
+grid_failure_flag,int64,Business meaning requires validation.,0.0,2,Target,Target / exclude or preprocess based on leakage assessment
